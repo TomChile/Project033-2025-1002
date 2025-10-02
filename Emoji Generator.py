@@ -1,6 +1,9 @@
 # Emoji Generator
 # This script generates random emojis or combinations of emojis
 
+print("--- Emoji Generator ---")
+# to represent various concepts or feelings.
+
 
 import random
 
