@@ -1,5 +1,14 @@
 import random
 
+print("Hello, World!\n")
+
+# Ask the user for their name and store the input in a variable called 'name'
+name = input("Please enter your name: ")
+
+# Print a greeting that includes the name the user entered
+print(f"\nHello, {name}! It's nice to meet you.\n")
+
+
 def generate_random_greeting():
     """
     Generates a personalized greeting by randomly combining
@@ -132,3 +141,5 @@ emoji_concept, description = generate_random_emoji()
 print(f"\nGenerated Emoji: {emoji_concept}")
 
 print("\nTry running the script again for a different result!\n")
+
+GoodBye = input("It is time to go! GoodBye!")
